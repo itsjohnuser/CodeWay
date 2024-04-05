@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    body{
+        background: url(./img/gy3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+    }
+    .left img{
+        width: 100px;
+        filter:drop-shadow(100%);
+        border-radius: 10px;
+    }
+    .left div{
+        text-align: center;
+        color: aliceblue;
+    }
+.mid{
+    
+    font-weight: 100;
+    display: inline-block;
+    margin: 2% auto;
+    left: 57px;
+    /* border: 2px solid rgb(83, 175, 185); */
+    padding: 20% 30% auto;
+    padding-left: 30%;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    
+    
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 60px;
+    display: inline-block;
+    /* border: 2px solid rgb(137, 210, 108); */
+    
+
+
+}
+.navbar{
+    display:inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    
+
+    
+}
+.navbar li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(202, 123, 19);
+}
+.btn{
+    margin: 0px 9px;
+    background-color: rgb(75, 126, 69);
+    color: white;
+    padding: 3px 4px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover,:active{
+    color: rgb(222, 8, 8);
+}
+.container{
+        /* border: 2px solid rgb(137, 22, 22); */
+    /* border: 2px solid rgb(137, 22, 22); */
+    margin: 0px 80px;
+    padding-top: 10%;
+    width: 36%;
+       
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    color:white;
+    padding: 5px;
+    border-radius: 10px ;
+    margin: 3px auto;
+    
+
+     }
+
+.form-group ::after{
+    text-align: center;
+    display: absolute;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px ;
+    margin: 3px auto;
+    
+
+}
+.container button{
+    display: block;
+    width: 170px;
+    margin: auto;
+}
+.container h1{
+    color: white;
+    margin: 12px;
+}
+
+.togglemenuicon {
+    position: absolute;
+        background-color: #1766ba;
+        height: 30px;
+        width: 30px;
+        display: none;
+        right: 10px;
+        top: 20px;
+        padding: 4px;
+        cursor: pointer;
+}
+
+
+
+@media (min-width: 320px) and (max-width:768px){
+    .togglemenuicon {
+        position: absolute;
+        background-color: #75f484;
+        height: 30px;
+        width: 30px;
+        display: block;
+        right: 10px;
+        top: 20px;
+        padding: 4px;
+        cursor: pointer;
+    }
+    .togglemenuicon div {
+        height: 2px;
+    background-color: #fff;
+    margin-bottom: 6px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .navbar  {
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: space-evenly;
+        align-items: center; */
+        display: none;
+    }
+    ul{
+        padding: 0px;
+        margin: 0px;
+         padding: 0px;
+         
+    }
+    .right{
+        border: 0px;
+        padding: 0px;
+        position: absolute;
+        right: 13px;
+        top: 20px;
+        gap: 9px;
+        display: flex;
+        /* border: 2px solid rgb(137, 210, 108); */
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+    }
+        
+    .container h1{
+        color: #e87a7a;
+        margin: 3px;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+
+    .container{
+            /* border: 2px solid rgb(137, 22, 22); */
+    /* border: 2px solid rgb(137, 22, 22); */
+    margin: 0px 80px;
+    padding-top: 12%;
+    width: 70%;
+    }
+
+    }
+    @media (min-width: 480px) and (max-width: 567px) {
+    
+    }
+    @media (min-width: 568px) and (max-width: 767px) {
+        
+    }
+    @media (min-width: 768px) and (max-width: 920px) {
+        
+    }
+    @media (min-width: 920px) and (max-width: 1200px) {
+        
+    }
+.footer{
+    margin-top: 110px;
+    background-color: rgb(89, 137, 22);
+    color: white;
+    padding: 3px 4px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
